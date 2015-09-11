@@ -1,0 +1,44 @@
+@-moz-viewpoint {width: divice-width; scale: 1;}
+@-ms-viewpoint {width: divice-width; scale; 1;}
+@-0-viewpoint {width: divice-width; scale; 1;}
+@viewpoint {width: divice-width; scale; 1;}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.skip-link {
+	margin: 0;
+	padding: 0:;
+	list-style-type: none;
+}
+
+.skip-link a {
+	position: absolute;
+	top: -10em;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.skip-link a:focus {
+	top: 0;
+}
+
+.billboard {
+	background-image: url(../images/guyplaceholder.png);
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	height:45em;
+	background-color:#00CCCC;
+}
+
+.white {
+	color: #fff;
+}

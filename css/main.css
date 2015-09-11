@@ -31,16 +31,34 @@ html {
 }
 
 .billboard {
-	background-image: url(../images/guyplaceholder.png);
+
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
 	height:40em;
 	background-color:#00CCCC;
 	text-align: center;
-	padding-left: 350px
+	padding-left: 350px;
 }
 
 .white {
 	color: #fff;
 }
+
+/*********************************Media*******************************/
+
+@media only screen and (min-width: 25em) {
+		}
+
+	@media only screen and (min-width: 38em) {
+		.billboard {
+		background-image: url(../images/guyplaceholder.png);
+		}
+
+	}
+
+	@media only screen and (min-width: 60em) {
+	}
+
+	@media only screen and (min-width: 90em) {
+	}

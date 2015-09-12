@@ -15,6 +15,10 @@ html {
     display: block;
     width: 100%;
 }
+
+p {
+	font-family: 'Roboto Slab', serif;
+}
 /********************************* Skip Links *******************************/
 .skip-link {
 	margin: 0;

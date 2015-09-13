@@ -19,6 +19,7 @@ html {
 
 p {
 	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
 }
 
 /********************************* Skip Links *******************************/
@@ -59,7 +60,7 @@ p {
   line-height: 1.3354;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .social-icon {
@@ -71,7 +72,7 @@ p {
  line-height: 1.3333;
  text-align: center;
  font-family: 'Roboto', sans-serif;
- font-weight: 400;
+ font-weight: 300;
 }
 
 .pad-top-1-2 {
@@ -84,13 +85,17 @@ p {
 
 .fade li a:hover {
 	opacity: 0.6;
-	-webket-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	-webket-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
  ul {
  	list-style-type: none;
  	padding: 0;
+ }
+
+ p {
+
  }
 
 /********************************* Media *******************************/

@@ -81,6 +81,10 @@ p {
  	display: block;
  }
 
+.fade {
+	margin:0;
+}
+
 .fade li a:hover {
 	opacity: 0.75;
 	-webket-transition: all 0.5s ease-in-out;

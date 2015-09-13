@@ -110,7 +110,7 @@ p {
 
 @media only screen and (min-width: 38em) {
 	.billboard {
-		background-image: url(../images/guyplaceholder.png);
+		background-image: url(../images/selfportrait.png);
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
@@ -120,7 +120,7 @@ p {
 
 @media only screen and (min-width: 60em) {
 	.billboard {
-		background-image: url(../images/guyplaceholder.png);
+		xbackground-image: url(../images/guyplaceholder.png);
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;

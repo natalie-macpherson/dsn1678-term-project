@@ -68,8 +68,6 @@ p {
 }
 
 .second-header {
- font-size: 1.1250rem;
- line-height: 1.3333;
  text-align: center;
  font-family: 'Roboto', sans-serif;
  font-weight: 300;
@@ -84,8 +82,8 @@ p {
  }
 
 .fade li a:hover {
-	opacity: 0.6;
-	-webket-transition: all 0.3s ease-in-out;
+	opacity: 0.75;
+	-webket-transition: all 0.5s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 

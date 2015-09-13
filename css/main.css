@@ -19,7 +19,9 @@ html {
 p {
 	font-family: 'Roboto Slab', serif;
 }
+
 /********************************* Skip Links *******************************/
+
 .skip-link {
 	margin: 0;
 	padding: 0:;
@@ -40,6 +42,7 @@ p {
 }
 
 /********************************* Billboard *******************************/
+
 .billboard {
 	background-color:#00CCCC;
 	padding-left: 350px;
@@ -92,28 +95,28 @@ p {
 	}
 }
 
-	@media only screen and (min-width: 60em) {
-		.billboard {
-			background-image: url(../images/guyplaceholder.png);
-			background-position: center center;
-			background-size: cover;
-			overflow: hidden;
-		}
-
-		.main-header {
-  		font-size: 4.5rem;
-  		line-height: 1.5;
-		}
-
-		.second-header {
-			font-size: 1.75rem;
-  		line-height: 1;
-		}
+@media only screen and (min-width: 60em) {
+	.billboard {
+		background-image: url(../images/guyplaceholder.png);
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
 	}
 
-	@media only screen and (min-width: 90em) {
-		.main-header {
-  		font-size: 5rem;
-  		line-height: 1.5;
-		}
+	.main-header {
+ 		font-size: 4.5rem;
+ 		line-height: 1.5;
 	}
+
+	.second-header {
+		font-size: 1.75rem;
+ 		line-height: 1;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+	.main-header {
+  	font-size: 5rem;
+  line-height: 1.5;
+	}
+}

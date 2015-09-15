@@ -120,7 +120,6 @@ p {
 
 @media only screen and (min-width: 60em) {
 	.billboard {
-		xbackground-image: url(../images/guyplaceholder.png);
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;

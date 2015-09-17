@@ -47,11 +47,11 @@ p {
 
 .billboard {
 	background-color:#b8b8b8;
-	xbackground-color:#00CCCC;
+	/*background-color:#00CCCC;*/
 	padding-left: 350px;
 	height: auto;
 	background-image: url(../images/solidbg.jpg);
-	xbackground-position: center center;
+	/*background-position: center center;*/
 	background-size: cover;
 	overflow: hidden;
 	height: 60em;
@@ -109,7 +109,7 @@ p {
 .email {
 	text-decoration: none;
 	color: #000820;
-	xcolor: #2F4F4F;
+	/*color: #2F4F4F;*/
 	-webkit-transition: color 250ms linear;
 	transition: color 250ms linear;
 }
@@ -129,8 +129,8 @@ p {
 
 @media only screen and (min-width: 38em) {
 	.billboard {
-		xbackground-image: url(../images/selfportrait-closeup.png);
-		xbackground-image: url(../images/selfportrait.png);
+		/*background-image: url(../images/selfportrait-closeup.png);*/
+		/*background-image: url(../images/selfportrait.png);*/
 		background-image: url(../images/selfportrait-bg.jpg);
 		background-position: center center;
 		background-size: cover;

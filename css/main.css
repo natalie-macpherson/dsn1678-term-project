@@ -51,10 +51,10 @@ p {
 	padding-left: 350px;
 	height: auto;
 	background-image: url(../images/solidbg.jpg);
-		background-position: center center;
-		background-size: cover;
-		overflow: hidden;
-		height: auto;
+	xbackground-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	height: 60em;
 }
 
 .white {
@@ -135,7 +135,7 @@ p {
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
-		height: auto;
+		height: 55em;
 	}
 	.main-header {
 	 		font-size:3.5rem;
@@ -149,6 +149,7 @@ p {
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
+		height: 45em;
 	}
 
 	.main-header {
@@ -163,4 +164,11 @@ p {
 }
 
 @media only screen and (min-width: 90em) {
+	.billboard {
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
+		height: 55em;
+	}
+
 }

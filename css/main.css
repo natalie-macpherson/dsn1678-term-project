@@ -56,11 +56,12 @@ p {
 }
 
 .main-header {
-  font-size: 4rem;
+  font-size: 3.25rem;
   line-height: 1.3354;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .social-icon {
@@ -126,6 +127,11 @@ p {
 		overflow: hidden;
 		height: 45em;
 	}
+	.main-header {
+	 		font-size:3.5rem;
+	 		line-height: 1.5;
+		}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -136,19 +142,15 @@ p {
 	}
 
 	.main-header {
- 		font-size: 4.5rem;
+ 		font-size: 4rem;
  		line-height: 1.5;
 	}
 
 	.second-header {
 		font-size: 1.75rem;
- 		line-height: 1;
+ 		line-height: 1.5;
 	}
 }
 
 @media only screen and (min-width: 90em) {
-	.main-header {
-  	font-size: 5rem;
-  line-height: 1.5;
-	}
 }

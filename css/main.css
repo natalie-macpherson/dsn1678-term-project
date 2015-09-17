@@ -46,9 +46,15 @@ p {
 /********************************* Billboard *******************************/
 
 .billboard {
-	background-color:#00CCCC;
+	background-color:#b8b8b8;
+	xbackground-color:#00CCCC;
 	padding-left: 350px;
 	height: auto;
+	background-image: url(../images/solidbg.jpg);
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
+		height: auto;
 }
 
 .white {
@@ -102,13 +108,15 @@ p {
 
 .email {
 	text-decoration: none;
-	color: #2F4F4F;
+	color: #000820;
+	xcolor: #2F4F4F;
 	-webkit-transition: color 250ms linear;
 	transition: color 250ms linear;
 }
 
 .email:hover {
-	color: #7029A8;
+	color: #383C47;
+	xcolor: #7029A8;
 }
 
 /********************************* Media *******************************/
@@ -121,11 +129,13 @@ p {
 
 @media only screen and (min-width: 38em) {
 	.billboard {
-		background-image: url(../images/selfportrait.png);
+		xbackground-image: url(../images/selfportrait-closeup.png);
+		xbackground-image: url(../images/selfportrait.png);
+		background-image: url(../images/selfportrait-bg.jpg);
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
-		height: 45em;
+		height: auto;
 	}
 	.main-header {
 	 		font-size:3.5rem;

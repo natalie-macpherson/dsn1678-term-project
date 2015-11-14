@@ -1,3 +1,0 @@
-Sitemap: http://natalie-macpherson.github.io/portfolio/sitemap.xml
-
-User-agent: *
